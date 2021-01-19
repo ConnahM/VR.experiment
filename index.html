@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Studio</title>
+  </head>
+ 
+  <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+  <script src="https://rawgit.com/Ctrl-Alt-Zen/aframe-mobile-controls/master/components/twoway-motion/twoway-motion.js"></script>
+ 
+  <body>
+    <a-scene>
+ 
 
+      <a-sky
+        id="background"
+        color="000000"
+        material="color: #000000"
+        geometry=""
+      ></a-sky>
+ 
+      <a-gltf-model
+        src="https://cdn.glitch.com/c504c180-7f64-44cd-b3ee-aa4206f25a49%2FChair_model.glb?v=1611077950855"
+        gltf-model="https://cdn.glitch.com/c504c180-7f64-44cd-b3ee-aa4206f25a49%2FChair_model.glb?v=1611077950855"
+      >
+      </a-gltf-model>
+ 
+      <a-entity
+        light="color: #ffffff; type: ambient; intensity: 2"
+        data-aframe-default-light=""
+        aframe-injected=""
+      ></a-entity>
+    </a-scene>
+    <a-entity
+      camera=""
+      position="0 5
+                0"
+      wasd-controls=""
+      rotation="-7.792226013779197 91.67324722093174 0"
+      look-controls=""
+      aframe-injected=""
+      data-aframe-inspector-original-camera=""
+    ></a-entity>
+  </body>
+</html>
